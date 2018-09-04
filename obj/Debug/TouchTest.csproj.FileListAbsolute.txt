@@ -1,0 +1,69 @@
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\App.xbf
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\MainPage.xbf
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\Touch.xbf
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\TouchTest.xr.xml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\TouchTest.exe
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\TouchTest.pdb
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\resources.pri
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\AppxManifest.xml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\bin\Debug\TouchTest.build.appxrecipe
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\App.g.i.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\App.g.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\MainPage.g.i.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\MainPage.g.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\Touch.g.i.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\Touch.g.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\XamlTypeInfo.g.cs
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\App.xaml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\App.xbf
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\XamlSaveStateFile.xml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\MainPage.xaml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\Touch.xaml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\MainPage.xbf
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\Touch.xbf
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\TouchTest.exe
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\TouchTest.pdb
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\priconfig.xml
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\priconfig.xml.intermediate
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\layout.resfiles
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\layout.resfiles.intermediate
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\resources.resfiles
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\resources.resfiles.intermediate
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\pri.resfiles
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\pri.resfiles.intermediate
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\qualifiers.txt
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\qualifiers.txt.intermediate
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\clemens\documents\visual studio 2015\Projects\TouchTest\TouchTest\obj\Debug\ProjectArchitectures.txt
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\App.xbf
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\MainPage.xbf
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\TouchTest.xr.xml
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\TouchTest.exe
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\TouchTest.pdb
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\resources.pri
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\AppxManifest.xml
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\bin\Debug\TouchTest.build.appxrecipe
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\App.g.i.cs
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\App.g.cs
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\MainPage.g.i.cs
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\MainPage.g.cs
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\XamlTypeInfo.g.cs
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\App.xaml
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\MainPage.xaml
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\App.xbf
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\MainPage.xbf
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\XamlSaveStateFile.xml
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\TouchTest.exe
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\TouchTest.pdb
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\priconfig.xml
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\priconfig.xml.intermediate
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\layout.resfiles
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\layout.resfiles.intermediate
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\resources.resfiles
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\resources.resfiles.intermediate
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\pri.resfiles
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\pri.resfiles.intermediate
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\qualifiers.txt
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\qualifiers.txt.intermediate
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Projects\Eigentlich Fertig\TouchTest\TouchTest\obj\Debug\ProjectArchitectures.txt

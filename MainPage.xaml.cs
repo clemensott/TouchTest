@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.Graphics.Display;
 using Windows.UI;
+using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
@@ -27,7 +22,7 @@ namespace TouchTest
     {
         private const double size = 10;
 
-        private List<Tuple<Pointer, Rectangle>> pointers;
+        private IDictionary<uint, Rectangle> rects;
         private Random ran;
 
         public MainPage()
@@ -36,7 +31,7 @@ namespace TouchTest
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
 
-            pointers = new List<Tuple<Pointer, Rectangle>>();
+            rects = new Dictionary<uint, Rectangle>();
             ran = new Random();
         }
 
@@ -48,19 +43,17 @@ namespace TouchTest
         {
             base.OnPointerEntered(e);
 
-            AddRect(e);
+            AddRect(e.GetCurrentPoint(grid));
         }
 
-        private void AddRect(PointerRoutedEventArgs e)
+        private void AddRect(PointerPoint pp)
         {
-            var pp = e.GetCurrentPoint(this);
-
             Rectangle rect = new Rectangle();
             rect.Fill = GetRandomBrush();
             rect.Margin = GetMargin(pp.Position);
             rect.Width = rect.Height = GetSize();
 
-            pointers.Add(new Tuple<Pointer, Rectangle>(e.Pointer, rect));
+            rects.Add(pp.PointerId, rect);
             grid.Children.Add(rect);
         }
 
@@ -80,31 +73,27 @@ namespace TouchTest
         {
             base.OnPointerExited(e);
 
-            int index = pointers.FindIndex(p => p.Item1.PointerId == e.Pointer.PointerId);
+            Rectangle rect;
+            if (!rects.TryGetValue(e.Pointer.PointerId, out rect)) return;
 
-            if (index == -1) return;
-
-            pointers.RemoveAt(index);
-            grid.Children.RemoveAt(index);
+            rects.Remove(e.Pointer.PointerId);
+            grid.Children.Remove(rect);
         }
 
         protected override void OnPointerMoved(PointerRoutedEventArgs e)
         {
             base.OnPointerMoved(e);
 
-            int index = pointers.FindIndex(p => p.Item1.PointerId == e.Pointer.PointerId);
+            PointerPoint pp = e.GetCurrentPoint(grid);
 
-            if (index == -1) AddRect(e);
-            else
-            {
-                var pp = e.GetCurrentPoint(this);
-                pointers[index].Item2.Margin = GetMargin(pp.Position);
-            }
+            if (!rects.ContainsKey(e.Pointer.PointerId)) AddRect(pp);
+            else rects[e.Pointer.PointerId].Margin = GetMargin(pp.Position);
         }
 
         private Thickness GetMargin(Point point)
         {
-            return new Thickness(point.X - GetSize(), point.Y - GetSize(), 0, 0);
+            double size = GetSize();
+            return new Thickness(point.X - size / 2, point.Y - size / 2, -size, -size);
         }
 
         private double GetSize()

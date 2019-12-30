@@ -8,5 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Canvas Name="grid" Background="Transparent"/>
+    <Grid>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"
+                   Text="A Touch Test" FontSize="40"/>
+        <Canvas Name="grid" Background="Transparent"/>
+    </Grid>
 </Page>
